@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
-const repo = 'portafolio-trabajo';
-
 const nextConfig = {
-  output: 'export',
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
+  output: "export",
   trailingSlash: true,
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
+  // Siempre usar basePath para GitHub Pages
+  basePath: "/portafolio-trabajo",
+  assetPrefix: "/portafolio-trabajo/",
 };
 
 module.exports = nextConfig;
