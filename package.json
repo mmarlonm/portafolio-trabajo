@@ -1,0 +1,35 @@
+{
+  "name": "web-portfolio-nextjs",
+  "version": "1.0.0",
+  "description": "A personal web portfolio built with React and Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "next": "^15.5.4",
+    "nodemailer": "^6.10.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "24.6.2",
+    "@types/nodemailer": "^6.4.21",
+    "@types/react": "19.2.0",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
