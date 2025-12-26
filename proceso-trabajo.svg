@@ -1,0 +1,83 @@
+<svg width="320" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#222222;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="320" height="400" fill="#f6f6f2" rx="24"/>
+  
+  <!-- Main container -->
+  <g transform="translate(20, 50)">
+    
+    <!-- Step 1: Analysis & Planning -->
+    <g>
+      <!-- Circle -->
+      <circle cx="36" cy="0" r="36" fill="url(#stepGrad)" stroke="#ffffff" stroke-width="3" filter="url(#shadow)"/>
+      <text x="36" y="8" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">1</text>
+      
+      <!-- Label to the right of circle -->
+      <text x="90" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">ANÁLISIS Y</text>
+      <text x="90" y="10" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">PLANIFICACIÓN</text>
+    </g>
+    
+    <!-- Arrow 1 -->
+    <line x1="36" y1="36" x2="36" y2="75" stroke="#222222" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="36,75 31,69 41,69" fill="#222222"/>
+    
+    <!-- Step 2: Development & Design -->
+    <g transform="translate(0, 90)">
+      <!-- Circle -->
+      <circle cx="36" cy="0" r="36" fill="url(#stepGrad)" stroke="#ffffff" stroke-width="3" filter="url(#shadow)"/>
+      <text x="36" y="8" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">2</text>
+      
+      <!-- Label to the right of circle -->
+      <text x="90" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">DESARROLLO</text>
+      <text x="90" y="10" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">Y DISEÑO</text>
+    </g>
+    
+    <!-- Arrow 2 -->
+    <line x1="36" y1="126" x2="36" y2="165" stroke="#222222" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="36,165 31,159 41,159" fill="#222222"/>
+    
+    <!-- Step 3: CMMI Quality -->
+    <g transform="translate(0, 180)">
+      <!-- Circle -->
+      <circle cx="36" cy="0" r="36" fill="url(#stepGrad)" stroke="#ffffff" stroke-width="3" filter="url(#shadow)"/>
+      <text x="36" y="8" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">3</text>
+      
+      <!-- Label to the right of circle -->
+      <text x="90" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">CMMI</text>
+      <text x="90" y="10" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">CALIDAD</text>
+    </g>
+    
+    <!-- Arrow 3 -->
+    <line x1="36" y1="216" x2="36" y2="255" stroke="#222222" stroke-width="3.5" stroke-linecap="round"/>
+    <polygon points="36,255 31,249 41,249" fill="#222222"/>
+    
+    <!-- Step 4: Delivery & Support -->
+    <g transform="translate(0, 270)">
+      <!-- Circle -->
+      <circle cx="36" cy="0" r="36" fill="url(#stepGrad)" stroke="#ffffff" stroke-width="3" filter="url(#shadow)"/>
+      <text x="36" y="8" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">4</text>
+      
+      <!-- Label to the right of circle -->
+      <text x="90" y="-8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">ENTREGA Y</text>
+      <text x="90" y="10" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="900" fill="#222222" text-anchor="start" letter-spacing="0.3px">SOPORTE</text>
+    </g>
+    
+  </g>
+</svg>
