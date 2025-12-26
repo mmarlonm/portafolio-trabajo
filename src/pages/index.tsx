@@ -20,16 +20,16 @@ const Home: React.FC = () => {
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   const galleryImages = [
-    { src: '/jringenieria1.png', alt: 'JR Ingeniería 1' },
-    { src: '/jringenieria3.png', alt: 'JR Ingeniería 3' },
-    { src: '/jringenieria4.png', alt: 'JR Ingeniería 4' },
-    { src: '/ternium1.png', alt: 'Ternium 1' },
-    { src: '/ternium2.png', alt: 'Ternium 2' },
-    { src: '/ternium3.png', alt: 'Ternium 3' },
-    { src: '/sierra-negra1.png', alt: 'Sierra Negra 1' },
-    { src: '/sierra-negra2.png', alt: 'Sierra Negra 2' },
-    { src: '/utcv.jpg', alt: 'UTCV Universidad' },
-    { src: '/bepensa.png', alt: 'Bepensa' },
+    { src: '/portafolio-trabajo/jringenieria1.png', alt: 'JR Ingeniería 1' },
+    { src: '/portafolio-trabajo/jringenieria3.png', alt: 'JR Ingeniería 3' },
+    { src: '/portafolio-trabajo/jringenieria4.png', alt: 'JR Ingeniería 4' },
+    { src: '/portafolio-trabajo/ternium1.png', alt: 'Ternium 1' },
+    { src: '/portafolio-trabajo/ternium2.png', alt: 'Ternium 2' },
+    { src: '/portafolio-trabajo/ternium3.png', alt: 'Ternium 3' },
+    { src: '/portafolio-trabajo/sierra-negra1.png', alt: 'Sierra Negra 1' },
+    { src: '/portafolio-trabajo/sierra-negra2.png', alt: 'Sierra Negra 2' },
+    { src: '/portafolio-trabajo/utcv.jpg', alt: 'UTCV Universidad' },
+    { src: '/portafolio-trabajo/bepensa.png', alt: 'Bepensa' },
   ];
 
   const openModal = (imageSrc: string) => {
@@ -151,7 +151,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             </div>
             <div className="custom-hero-image-bg">
               <Image
-                src="/profile-image.png"
+                src="/portafolio-trabajo/profile-image.png"
                 alt="Proyecto"
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
@@ -185,7 +185,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             <h2 className="portfolio-title">PORTFOLIO</h2>
             <div className="portfolio-cards">
               <div className="portfolio-card">
-                <Image src="/jringenieria1.png" alt="JR Ingeniería" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
+                <Image src="/portafolio-trabajo/jringenieria1.png" alt="JR Ingeniería" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
                 <div className="portfolio-card-info">
                   <span className="portfolio-card-title">JR INGENIERÍA</span>
                   <span className="portfolio-card-desc">Sistema de gestión integral para empresa de ingeniería</span>
@@ -193,7 +193,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
               </div>
               <div className="portfolio-card">
-                <Image src="/ternium1.png" alt="Ternium" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
+                <Image src="/portafolio-trabajo/ternium1.png" alt="Ternium" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
                 <div className="portfolio-card-info">
                   <span className="portfolio-card-title">TERNIUM</span>
                   <span className="portfolio-card-desc">Solución tecnológica para empresa siderúrgica</span>
@@ -201,7 +201,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
               </div>
               <div className="portfolio-card">
-                <Image src="/sierra-negra1.png" alt="Sierra Negra" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
+                <Image src="/portafolio-trabajo/sierra-negra1.png" alt="Sierra Negra" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
                 <div className="portfolio-card-info">
                   <span className="portfolio-card-title">SIERRA NEGRA</span>
                   <span className="portfolio-card-desc">Plataforma digital para gestión de proyectos</span>
@@ -209,7 +209,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
               </div>
               <div className="portfolio-card">
-                <Image src="/utcv.jpg" alt="UTCV Universidad" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
+                <Image src="/portafolio-trabajo/utcv.jpg" alt="UTCV Universidad" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
                 <div className="portfolio-card-info">
                   <span className="portfolio-card-title">UTCV UNIVERSIDAD</span>
                   <span className="portfolio-card-desc">Sistema de gestión académica para universidad</span>
@@ -217,7 +217,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
               </div>
               <div className="portfolio-card">
-                <Image src="/bepensa.png" alt="Bepensa" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
+                <Image src="/portafolio-trabajo/bepensa.png" alt="Bepensa" width={600} height={300} sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" style={{ borderRadius: '24px', objectFit: 'cover', width: '100%', height: 'auto' }} />
                 <div className="portfolio-card-info">
                   <span className="portfolio-card-title">BEPENSA</span>
                   <span className="portfolio-card-desc">Solución tecnológica para empresa de distribución</span>
@@ -262,7 +262,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 <div className="process-step"><strong>ENTREGA Y SOPORTE</strong><br />Aseguro la calidad mediante pruebas exhaustivas, documentación completa y te acompaño en la implementación con soporte continuo.</div>
               </div>
               <div className="process-image">
-                <Image src="/proceso-trabajo.svg" alt="Proceso de Trabajo CMMI" width={320} height={400} sizes="(max-width: 768px) 100vw, 320px" style={{ borderRadius: '24px', objectFit: 'contain', width: '100%', height: 'auto', maxWidth: '320px', display: 'block' }} />
+                <Image src="/portafolio-trabajo/proceso-trabajo.svg" alt="Proceso de Trabajo CMMI" width={320} height={400} sizes="(max-width: 768px) 100vw, 320px" style={{ borderRadius: '24px', objectFit: 'contain', width: '100%', height: 'auto', maxWidth: '320px', display: 'block' }} />
               </div>
             </div>
           </section>
