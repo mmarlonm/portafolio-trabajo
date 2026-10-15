@@ -96,7 +96,7 @@ const Spanish: React.FC = () => (
 
     <Sec title="7. Publicidad (Google AdMob) y consentimiento">
       <p>
-        Droply muestra anuncios mediante <strong>Google AdMob</strong>: un banner en la pantalla de Ajustes (que se oculta si compras un efecto) y un
+        Droply muestra anuncios mediante <strong>Google AdMob</strong>: un banner fijo en la parte inferior de la aplicación (que se oculta si compras un efecto) y un
         anuncio con recompensa, <strong>opcional</strong>, que permite probar un efecto premium durante 24 horas. No hay anuncios sobre la pantalla
         de bloqueo, en la animación de las notificaciones ni dentro de ellas.
       </p>
@@ -234,7 +234,7 @@ const English: React.FC = () => (
 
     <Sec title="7. Advertising (Google AdMob) and consent">
       <p>
-        Droply shows ads through <strong>Google AdMob</strong>: a banner on the Settings screen (hidden if you buy an effect) and an{' '}
+        Droply shows ads through <strong>Google AdMob</strong>: a banner fixed at the bottom of the app (hidden if you buy an effect) and an{' '}
         <strong>optional</strong> rewarded ad that lets you try a premium effect for 24 hours. There are no ads over the lock screen, in the
         notification animation or inside notifications.
       </p>

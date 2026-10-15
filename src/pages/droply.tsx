@@ -35,7 +35,7 @@ const FAQ = [
   ],
   [
     '¿Cómo quito los anuncios?',
-    'El banner de Ajustes desaparece al comprar cualquier efecto premium. El anuncio con recompensa es opcional y solo aparece si tú lo eliges para probar un efecto 24 horas. Nunca hay anuncios en la pantalla de bloqueo.',
+    'El banner de la parte inferior desaparece al comprar cualquier efecto premium. El anuncio con recompensa es opcional y solo aparece si tú lo eliges para probar un efecto 24 horas. Nunca hay anuncios en la pantalla de bloqueo.',
   ],
 ];
 
