@@ -6,7 +6,7 @@ import LegalShell from '../components/LegalShell';
 const BASE = '/portafolio-trabajo';
 
 const FEATURES = [
-  ['Gota de agua con slow motion', 'La gota se forma en el borde, cae y se abre en una tarjeta de cristal con tu mensaje.'],
+  ['Gota de agua de cristal', 'La gota se forma en el borde, cae y se abre en una tarjeta de cristal con tu mensaje.'],
   ['17 efectos', 'Aqua, Aurora, Burbuja, Vórtice, Cometa y Escarcha, más Pulso neón y Meteorito (premium).'],
   ['De temporada', 'Halloween, Día de Muertos y Navidad: calabazas, cempasúchil, árbol de luces y más.'],
   ['A tu medida', 'Tiempo en pantalla, altura y posición de la gota, vibración al caer y apps que activan Droply.'],
