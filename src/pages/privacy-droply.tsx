@@ -60,6 +60,7 @@ const Spanish: React.FC = () => (
         <li><strong>No se guardan:</strong> ese contenido permanece únicamente en la memoria del teléfono mientras la tarjeta está en pantalla y se descarta al cerrarla.</li>
         <li><strong>No se envían</strong> a ningún servidor, nuestro ni de terceros, y no se usan para publicidad, análisis ni perfiles.</li>
         <li>Puedes <strong>excluir aplicaciones</strong> en <em>Ajustes → Apps bloqueadas</em>: Droply ignora sus notificaciones.</li>
+        <li>Puedes <strong>ocultar el contenido</strong> en <em>Ajustes → Contenido de la alerta</em>: mostrar todo, ocultar el mensaje o mostrar solo el nombre de la app. Esa elección también se aplica a la notificación silenciosa propia de Droply. Tu notificación original en el teléfono no cambia.</li>
         <li>Puedes <strong>retirar el permiso</strong> en cualquier momento desde los ajustes de Android (<em>Acceso a notificaciones</em>).</li>
         <li>Al descartar una tarjeta, Droply pide a Android que también borre esa notificación de la barra del teléfono; no hace nada más con ella.</li>
       </List>
@@ -198,6 +199,7 @@ const English: React.FC = () => (
         <li><strong>Not stored:</strong> that content stays only in the phone's memory while the card is on screen and is discarded when it closes.</li>
         <li><strong>Not sent</strong> to any server, ours or a third party's, and not used for advertising, analytics or profiling.</li>
         <li>You can <strong>exclude apps</strong> in <em>Settings → Blocked apps</em>: Droply ignores their notifications.</li>
+        <li>You can <strong>hide the content</strong> in <em>Settings → Alert content</em>: show everything, hide the message, or show only the app name. That choice also applies to Droply's own silent notification. Your original notification on the phone does not change.</li>
         <li>You can <strong>revoke the permission</strong> at any time from Android's settings (<em>Notification access</em>).</li>
         <li>When you dismiss a card, Droply asks Android to also clear that notification from the status bar; it does nothing else with it.</li>
       </List>

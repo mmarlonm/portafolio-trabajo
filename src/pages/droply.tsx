@@ -10,7 +10,7 @@ const FEATURES = [
   ['17 efectos', 'Aqua, Aurora, Burbuja, Vórtice, Cometa y Escarcha, más Pulso neón y Meteorito (premium).'],
   ['De temporada', 'Halloween, Día de Muertos y Navidad: calabazas, cempasúchil, árbol de luces y más.'],
   ['A tu medida', 'Tiempo en pantalla, altura y posición de la gota, vibración al caer y apps que activan Droply.'],
-  ['Privada por diseño', 'Tus notificaciones se procesan solo en tu teléfono. No hay cuentas ni servidores.'],
+  ['Privada por diseño', 'Tus notificaciones se procesan solo en tu teléfono. No hay cuentas ni servidores, y puedes ocultar el mensaje o todo el contenido de la alerta.'],
   ['Se sincroniza con la barra', 'Al descartar una tarjeta, Droply la borra también de la barra de notificaciones.'],
 ];
 
@@ -31,7 +31,7 @@ const FAQ = [
   ],
   [
     '¿Qué pasa con mis notificaciones?',
-    'Se leen solo para dibujarlas, se quedan en la memoria del teléfono mientras la tarjeta está en pantalla y no se envían a ningún sitio. Puedes quitar el permiso cuando quieras desde los ajustes de Android.',
+    'Se leen solo para dibujarlas, se quedan en la memoria del teléfono mientras la tarjeta está en pantalla y no se envían a ningún sitio. Si prefieres más privacidad, en Ajustes → Contenido de la alerta puedes ocultar el mensaje o todo el contenido. Puedes quitar el permiso cuando quieras desde los ajustes de Android.',
   ],
   [
     '¿Cómo quito los anuncios?',
