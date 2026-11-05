@@ -7,9 +7,9 @@ const BASE = '/portafolio-trabajo';
 
 const FEATURES = [
   ['Gota de agua de cristal', 'La gota se forma en el borde, cae y se abre en una tarjeta de cristal con tu mensaje.'],
-  ['17 efectos', 'Aqua, Aurora, Burbuja, Vórtice, Cometa y Escarcha, más Pulso neón y Meteorito (premium).'],
-  ['De temporada', 'Halloween, Día de Muertos y Navidad: calabazas, cempasúchil, árbol de luces y más.'],
-  ['A tu medida', 'Tiempo en pantalla, altura y posición de la gota, vibración al caer y apps que activan Droply.'],
+  ['18 efectos', 'Aqua, Aurora, Burbuja, Vórtice, Cometa y Escarcha, más Pulso neón y Meteorito (premium).'],
+  ['De temporada', 'Halloween, Día de Muertos y Navidad: calabazas, cempasúchil, árbol de luces, piñata de estrella y más.'],
+  ['A tu medida', 'Tiempo en pantalla, altura y posición de la gota, color de la tarjeta, vibración al caer y apps que activan Droply.'],
   ['Privada por diseño', 'Tus notificaciones se procesan solo en tu teléfono. No hay cuentas ni servidores, y puedes ocultar el mensaje o todo el contenido de la alerta.'],
   ['Se sincroniza con la barra', 'Al descartar una tarjeta, Droply la borra también de la barra de notificaciones.'],
 ];
